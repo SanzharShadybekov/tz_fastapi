@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+alembic
+pydantic
+flake8
+psycopg2-binary
+SQLAlchemy
+asyncpg
+sqlmodel
+greenlet
+pytest
+pytest-asyncio
+httpx

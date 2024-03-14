@@ -1,0 +1,4 @@
+[flake8]
+exclude = .git*, .gitignore*, __pycache__, ./venv, ./migrations/
+ignore = C901, F401
+max-complexity = 2
