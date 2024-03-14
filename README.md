@@ -9,6 +9,11 @@ Moving to project dir
 ```
 cd "directory"
 ```
+Change server_name and set ip in nginx settings
+```
+nano nginx/default.conf
+```
+
 * **Installing docker in ubuntu 20/22 instance** 
 ```
 sudo apt update && sudo apt upgrade -y
