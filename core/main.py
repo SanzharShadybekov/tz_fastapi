@@ -8,6 +8,11 @@ from core.db import get_session
 app = FastAPI()
 
 
+@app.get('/')
+def read_root():
+    return 'Server is running!'
+
+
 @app.get("/bets/", response_model=List[BetsRead], tags=['bets'])
 async def bets_list(session: AsyncSession = Depends(get_session)):
     return await get_bets_list(session=session)
